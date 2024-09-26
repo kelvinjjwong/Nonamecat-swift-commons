@@ -1,5 +1,7 @@
 public class ArrayDiff {
     
+    public init() {}
+    
     public func countOccurance(_ array:[[String]]) -> [String:Int] {
         var _set:Set<String> = []
         for aa in array {
